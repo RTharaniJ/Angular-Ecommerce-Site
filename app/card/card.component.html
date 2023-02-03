@@ -1,0 +1,74 @@
+<div class="pro-card">
+   
+    
+
+        <!-- copy -->
+        <!-- <div class="grid-container single-product" id="">
+            <div *ngFor="let item of cards" class="grid-item ">
+                <div class="product-img">
+                    <img src="../../assets/images/product{{item.id}}.png" class="card-img-top w-100 h-60 mx-auto"
+                        alt="...">
+                    <div class="">
+                      
+                        <div class="row product-hover d-flex">
+                            <div class="col-4">
+                                <div class="product-icon product-cart-icon"></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="product-icon product-view-icon"></div>  
+                            </div>
+                            <div class="col-4">
+                                <div class="product-icon product-wishlist-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">{{item.name}}</h5>
+                        <p class="card-text fs-6"> Rs. Rs.{{item.priceWithDiscount}}<del> Rs.
+                                {{item.price}}</del> (60%)</p>
+                        <img src="img\\rating.png" alt="" class="w-50 h-25">
+                    </div>
+                </div>
+            </div> -->
+            <!-- copy end -->
+            <!-- copy1 -->
+<div class="grid-container">
+            <div *ngFor="let item of cards" class="single-product " id="">
+                <div class="product-img grid-item">
+                    <img src="../../assets/images/product{{item.id}}.png" class="card-img-top w-100 h-60 mx-auto"
+                    alt="...">
+                    <div class="product-hover">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div (click)="addToCart(product)" class="product-icon product-cart-icon">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="product-icon product-view-icon">
+                                    </div>  
+                                </div>
+                                <div class="col-4">
+                                    <div class="product-icon product-wishlist-icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="product-caption">
+                    <div class="product-rating">
+                       
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">{{item.name}}</h5>
+                        <p class="card-text fs-6"> Rs. Rs.{{item.priceWithDiscount}}<del> Rs.
+                                {{item.price}}</del> (60%)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- copy1 end -->
+        </div>
+   

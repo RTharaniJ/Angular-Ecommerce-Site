@@ -1,0 +1,28 @@
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#navigation li {
+    list-style: none;
+}
+
+#navigation li a {
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+}
+
+div {
+    width: 60%;
+}
+
+.main-menu ul li:hover>a {
+    color: #ff003c;
+    text-decoration: none;
+}
+
+.submenu {
+    display: none;
+}

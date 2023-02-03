@@ -1,0 +1,59 @@
+.btn {
+    background: #f8880f;
+    
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 0;
+  
+    padding: 25px 40px;
+    border-radius: 25px;
+   
+   margin-right: 50px;
+    transition: color .4s linear;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    overflow: hidden;
+    
+}
+.btn:hover::before {
+    transform: scaleX(1);
+    color: #fff !important;
+    z-index: -1
+}
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffce25;
+    z-index: 1;
+    border-radius: 5px;
+    transition: transform .5s;
+    transition-timing-function: ease;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(.5, 1.6, .4, .7);
+    transform: scaleX(0)
+}
+i{
+    padding: 7px 25px 25px 7px;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    height: 10px;
+    width: 10px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+   
+}
+a{
+    color: black;
+}

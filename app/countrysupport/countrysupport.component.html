@@ -1,0 +1,14 @@
+<div class="countrysupport">
+    <ul>
+        <li><i class="fa fa-phone" aria-hidden="true"></i></li>
+        <li id="contact">{{phoneNumber}}</li>
+    </ul>
+    <img src="../../assets/images/{{country}}.png" alt="" id="flag">
+    <select name="" id="country" (change)="changeCountry($event)">
+        <option value="india">India</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="uae">UAE</option>
+    </select>
+    
+</div>

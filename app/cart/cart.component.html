@@ -1,0 +1,60 @@
+<main class="cart-width">
+    <div class="mycart">
+        <div class="mycart-item">
+            <h5>MY CARTS</h5>
+            <p id="cart-item">(0 Items)</p>
+        </div>
+        <div id="totalRs-cart"><h6>Total: Rs <span class="tRsCartAll">0</span> </h6></div>
+    </div>
+    <div class="addcart-width">
+
+        <!-- Add Products through cart  -->
+        <div id="addCartProduct"></div>
+
+        <!-- End of Add Products through cart  -->
+
+        <!-- Coupons Card -->
+        <div id="cartcoupon" class="cartcoupon1">
+            <h6>COUPONS</h6>
+            <div class="couponapply">
+                <i class="fa-solid fa-tags"></i>
+                <h6>Apply Coupons</h6>
+                <button type="submit" class="button">Apply</button>
+            </div>
+            <hr>
+            <div>
+                <h6 class="cartPriceDetails">PRICE DETAILS</h6>
+            </div>
+            <div class="pricedetail">
+                <p>Price Details</p>
+                <p id="rsPriceDetails">Rs <span class="tPriceAll">0</span></p>
+            </div>
+            <div class="pricedetail">
+                <p>Bag Discount</p>
+                <p id="disPriceDetails">Rs <span class="tPriceDisAll">0</span></p>
+            </div>
+            <div class="pricedetail">
+                <p>Coupon Discount</p>
+                <p id="cdisPriceDetails">Apply Coupon</p>
+            </div>
+            <div class="pricedetail">
+                <p>Order Total</p>
+                <p id="realPriceDetails">Rs <span class="tPriceRealAll">0</span></p>
+            </div>
+            <div class="pricedetail">
+                <p>Delivery Charges</p>
+                <p id="dcPriceDetails"><del>Rs 99</del>Free</p>
+            </div>
+            <hr class="linefortotal">
+            <div class="pricedetail">
+                <p>Total</p>
+                <p id="tlPriceDetails">Rs <span class="tPriceRealAllLast">0</span></p>
+            </div>
+            <div class="ca-btn1"> 
+                <button type="submit" class="ca-btn2" onclick="removeAllCart()"> PLACE ORDER </button>
+            </div>
+        </div>
+        <!-- End of Coupons Card  -->
+    </div>
+
+</main>
